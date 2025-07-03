@@ -13,7 +13,7 @@ const Searcher = ({ onSearch }: SearcherProps) => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       onSearch(input.trim())
-    }, 300)
+    }, 500)
 
     return () => clearTimeout(timeout)
   }, [input, onSearch])
