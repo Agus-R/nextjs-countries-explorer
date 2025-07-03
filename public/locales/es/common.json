@@ -1,0 +1,21 @@
+{
+  "title": "Explorador de Países",
+  "description": "Descubre información sobre diferentes países del mundo.",
+  "button": "Ver detalles",
+  "languageSwitcher": "Cambiar idioma",
+  "search": "Buscar",
+  "countriesList": {
+    "title": "Paises"
+  },
+  "country": {
+    "name": "Nombre",
+    "population": "Poblacion",
+    "region": "Region",
+    "subregion": "Subregion",
+    "capital": "Capital",
+    "flag": "Bandera",
+    "code": "Código",
+    "official": "Nombre oficial"
+  },
+  "back": "Volver"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Country Explorer",
+  "description": "Discover information about different countries around the world.",
+  "button": "View details",
+  "languageSwitcher": "Switch language",
+  "search": "Search",
+  "countriesList": {
+    "title": "Conuntries"
+  },
+  "country": {
+    "name": "Name",
+    "population": "Population",
+    "region": "Region",
+    "subregion": "Subregion",
+    "capital": "Capital",
+    "flag": "Flag",
+    "code": "Code",
+    "official": "Official name"
+  },
+  "back": "Back"
+}

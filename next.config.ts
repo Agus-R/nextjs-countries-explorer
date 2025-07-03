@@ -1,8 +1,9 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
+import i18nextConfig from 'next-i18next.config'
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactStrictMode: true,
-};
+  i18n: i18nextConfig.i18n,
+}
 
-export default nextConfig;
+export default nextConfig
