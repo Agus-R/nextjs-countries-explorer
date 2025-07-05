@@ -3,6 +3,7 @@ const i18nextConfig = {
     defaultLocale: 'es',
     locales: ['es', 'en'],
   },
+  localePath: path.resolve('./public/locales'),
 }
 
 module.exports = i18nextConfig
