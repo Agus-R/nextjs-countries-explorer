@@ -1,5 +1,4 @@
 import { useTranslation } from 'next-i18next'
-import '@/styles/style.css'
 import { useState, useEffect } from 'react'
 
 interface SearcherProps {

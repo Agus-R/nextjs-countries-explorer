@@ -1,5 +1,4 @@
 import { useTranslation } from 'next-i18next'
-import '@/styles/style.css'
 import Searcher from './Searcher'
 
 interface HeaderProps {
