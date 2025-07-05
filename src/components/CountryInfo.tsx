@@ -25,7 +25,6 @@ const CountryInfo = ({ country }: Props) => {
           <span>
             {t('country.capital')}: {country.capital?.[0] || '—'}
           </span>
-          <span>Prueba: {country.cca3}</span>
         </div>
         <div className="imageContainer">
           <img src={country.flags.png} alt={country.flags.alt || country.name.common} />
