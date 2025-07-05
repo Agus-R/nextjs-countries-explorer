@@ -1,6 +1,7 @@
 import path from 'path'
+import { UserConfig } from 'next-i18next'
 
-const i18nextConfig = {
+const i18nextConfig: UserConfig = {
   i18n: {
     defaultLocale: 'es',
     locales: ['es', 'en'],
@@ -8,4 +9,4 @@ const i18nextConfig = {
   localePath: path.resolve('./public/locales'),
 }
 
-module.exports = i18nextConfig
+export default i18nextConfig
