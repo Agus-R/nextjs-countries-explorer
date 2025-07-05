@@ -1,3 +1,5 @@
+import path from 'path'
+
 const i18nextConfig = {
   i18n: {
     defaultLocale: 'es',
